@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sandbox</title>
+        <link href="//netdna.bootstrapcdn.com/bootswatch/3.0.2/yeti/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Welcome to the Sandbox</h1>
+        <div class="result"></div>
+
+        <!-- Javascript -->
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+        <script src="marked.js"></script>
+        <script>
+            console.log(marked('I am using __markdown__.'));
+            $( document ).ready ( function() {
+                $.get("info.markdown", function(data) {
+                    html = marked(data);
+                    $(".result").html(html);
+                })
+            });
+        </script>
+    </body>
+</html>
