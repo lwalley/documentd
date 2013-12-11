@@ -1,0 +1,16 @@
+{
+    "documents": {
+        "database_server.mkd": {
+            "title": "Database Server"
+        },
+        "gluster.mkd": {
+            "title": "GlusterFS"
+        },
+        "webserver.mkd": {
+            "title": "Web Server"
+        },
+        "rocketlauncher.mkd": {
+            "title": "RocketLauncher"
+        }
+    }
+}
