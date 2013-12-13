@@ -1,4 +1,3 @@
-console.log(marked('I am using __markdown__.'));
 $( document ).ready ( function() {
     $.ajaxSetup({ cache: false });
     var documentRoot = 'infrastructure-doc',
