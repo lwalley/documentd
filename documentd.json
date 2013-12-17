@@ -1,4 +1,5 @@
 {
+    "title": "Infrastructure",
     "documents": {
         "database_server.mkd": {
             "title": "Database Server"
