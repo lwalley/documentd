@@ -25,6 +25,12 @@ $( document ).ready ( function() {
         });
         document.title = title;
         $('a.navbar-brand').html(title);
+        $('a.navbar-brand').click(function() {
+            $.get(documentRoot + '/README.md', function(data) {
+                html = marked(data);
+                $(".documentation").html(html);
+            });
+        });
     });
 });
 
