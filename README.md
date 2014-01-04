@@ -1,5 +1,5 @@
 documentd
-=========
+---------
 
 A small documentation library and application
 
